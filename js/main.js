@@ -1,0 +1,20 @@
+$(document).ready(function(){
+$('#spotlight').hide();
+$('.port-card').click(function(){
+  console.log('clickity');
+  $('#spotlight').fadeIn();
+});
+$('#spotlight').click(function(){
+  $(this).fadeOut();
+})
+$('#menu')
+  .mouseenter(function(){
+    console.log('in');
+    $('#menu-items').slideDown();
+  })
+  .mouseleave(function(){
+    console.log('out');
+    $('#menu-items').slideUp();
+  });
+
+});

@@ -1,0 +1,175 @@
+/* GENERAL */
+
+p {
+  font-family: 'Oxygen', 'Open Sans', sans-serif;
+  font-size: 2em;
+  margin: 20px;
+  line-height: 2em;
+}
+
+
+/* ID */
+
+#bud {
+  height: 675px;
+
+  bottom: 10px;
+  left: 50px;
+}
+#head-signature {
+  padding: 10px;
+  height: 90%;
+}
+#humphrey {
+  float: right;
+  height: 100%;
+}
+
+#menu {
+  margin-left: 0px;
+  background-color: rgba(255,0,0,0.75);
+  padding: 20px;
+  border-radius: 0px 20px 20px 0px;
+  position: fixed;
+  top: 200px;
+  width: 350px;
+
+  z-index: 100;
+}
+
+#menu-items > li{
+  font-family: 'Montserrat', sans-serif;;
+  font-weight: 700;
+  font-size: 3em;
+  color: white;
+  list-style-type: none;
+  line-height: 1.4em;
+}
+
+#menu-sig {
+  height: 125px;
+}
+
+#portfolio {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  width: 700px;
+}
+
+#spotlight {
+  position: fixed;
+  top:0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(33,33,33,0.8);
+
+  z-index: 101;
+
+}
+#welcome {
+  top: 50px;
+  right: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  color: black;
+  text-align: right;
+  line-height: 1.3em;
+
+}
+
+
+/* CLASS */
+
+.banner {
+  position: absolute;
+  margin-right: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  color: white;
+  background-color: rgba(255,0,0,0.5);
+  padding: 30px;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+
+.bg {
+  width: 100%;
+  z-index: 0;
+}
+.header {
+  height: 75px;
+  background-color: crimson;
+  width: 100%;
+  /* border-bottom: 10px gray solid; */
+}
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  color: rgb(255,64,64);
+  float:right;
+  margin: 50px 20px;
+  display: inline-block;
+}
+.jumbo {
+  margin-top: 0px;
+  width:100%;
+  height: 750px;
+  position: relative;
+  display: inline-block;
+}
+
+.overlay{
+  position: absolute;
+}
+.port-card {
+  float: right;
+  width: 650px;
+  height: 200px;
+  display: inline-block;
+
+  margin: 20px;
+  background-color: rgba(255,255,255,0.7);
+}
+
+.port-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: rgb(255,64,64);
+  float: right;
+  margin-bottom: 25px;
+
+}
+
+.port-content {
+  /* position: absolute; */
+  width: 100%;
+  height: 150px;
+  /* bottom: 0px; */
+  display: inline-block;
+}
+
+.port-img{
+  vertical-align: top;
+  width:150px;
+  display: inline-block;
+}
+
+.port-text {
+
+  display: inline-block;
+
+  width: 450px;
+  height: 100px;
+  padding-left: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: #666666;
+}
