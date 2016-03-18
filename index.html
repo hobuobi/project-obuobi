@@ -13,6 +13,7 @@
 <!-- JS -->
 
 <script src="js/jquery.min.js"></script>
+<script src="js/typed.js"></script>
 <script src="js/main.js"></script>
 
 </head>
@@ -24,22 +25,24 @@
 </div>
 -->
 <div id="menu" align="center">
-  <img id="menu-sig" src="img/signature_white.png">
+  <img id="HOME" class="menu-sig" style="height:125px" src="img/signature_white.png">
   <hr />
   <ul id="menu-items">
-    <li onclick="location.href = '#' ';">ABOUT</li>
-    <li onclick="location.href = '#'';">PROJECTS</li>
-    <li onclick="location.href = '#'';">PORTFOLIO</li>
-    <li onclick="location.href = '#'';">CONTACT</li>
+    <li class="menu-item">ABOUT</li>
+    <li class="menu-item">PROJECTS</li>
+    <li class="menu-item">PORTFOLIO</li>
+    <li class="menu-item">CONTACT</li>
   </ul>
 </div>
 
-<div class="col-md-12 jumbo">
+<div class="col-md-12 jumbo" id ="HOME">
+<div class="banner" style="background-color: rgba(0,0,0,0.5); top: 25px">I AM A/AN</div>
+<div class="banner" id="type" style="top: 125px"></div>
 <img id = "humphrey" src="img/humphrey_T.png">
-<div class="banner" style="float:bottom">I AM HUMPHREY OBUOBI.</div>
+<div class="banner" style="float:right; bottom: 0px; right: 0px;">I AM HUMPHREY OBUOBI.</div>
 </div>
 
-<div class = "col-md-12 jumbo" id="about" style="background-color: rgb(247,247,247)">
+<div class = "col-md-12 jumbo" id="ABOUT" style="background-color: rgb(247,247,247)">
   <!--<img class="bg" src="img/background1.jpg">
   <div id="welcome" class="overlay">-->
     <span class="heading">YOU MUST BE NEW.</span>
@@ -57,7 +60,7 @@
   </div>
 </div>
 
-<div class = "col-md-12 jumbo" style="height: 900px">
+<div class = "col-md-12 jumbo" id = "PROJECTS" style="height: 900px">
   <!--<img class="bg" src="img/background1.jpg">-->
   <!--<div style="width:100%">-->
   <span class="heading">I MAKE THINGS FOR IMPACT.</span>
@@ -105,15 +108,15 @@
 
 </div>
 
-<div class = "col-md-12 jumbo" id="about" style="background-color: rgb(247,247,247)">
+<div class = "col-md-12 jumbo" id="PORTFOLIO" style="background-color: rgb(247,247,247)">
   <!--<img class="bg" src="img/background1.jpg">-->
   <span class="heading">...AND DESIGN THINGS, TOO.</span>
 </div>
 
 <div id="spotlight">
 <div id="spot-title" class="heading" style="color: white;">TEST OKAY</div>
-<div class="col-md-6" id="spot-picture"></div>
-<div class="col-md-6" id="spot-info">
+<div class="col-md-3" id="spot-picture"></div>
+<div class="col-md-9" id="spot-info">
   <span id="spot-summary"><span style="color: red; font-family: 'Montserrat';">SUMMARY: </span></span>
   <br>
   <span id="spot-made"><span style="color: red; font-family: 'Montserrat';">MADE AT: </span></span>
